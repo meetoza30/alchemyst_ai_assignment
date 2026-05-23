@@ -11,7 +11,8 @@
 ---
 
 # Architecture Diagram
-
+<img width="1393" height="753" alt="image" src="https://github.com/user-attachments/assets/3bd1cb7b-9a01-49b5-b077-6d549b678518" />
+Video explaining assignment - https://www.youtube.com/watch?v=1ebQjwDlFk0
 
 RPC Flow
 
@@ -39,15 +40,6 @@ Resources created:
 * Security groups
 * EC2 instances
 * Internal communication rules
-
-Terraform files included:
-
-* vpc.tf
-* ec2.tf
-* sg.tf
-* outputs.tf
-* provider.tf
-* vars.tf
 
 ---
 
@@ -209,10 +201,7 @@ Improvements would include:
 
 * GPU-backed EC2 instances
 * distributed model serving
-* model sharding
-* quantized inference formats
 * inference batching
-* autoscaling inference clusters
 * Kubernetes/EKS-based orchestration
 * dedicated model serving frameworks
 * request queues and load balancing
@@ -224,6 +213,3 @@ Large-scale models would also require significantly more operational focus on:
 * startup latency,
 * GPU utilization,
 * and horizontal scaling.
-
-#
-
